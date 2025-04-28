@@ -72,16 +72,16 @@ class BFactory {
     }
 }
 
-class Factory {
-    static createObject(factory: string): IAbstractProduct | undefined {
-        try {
-            //    if(log for A factory) return AFactory.getObject(factory)
-            //     if(log for B factory)  return BFactory.getObject(factory)
-            throw new Error('No Factory Found')
-        } catch (e) {
-            console.log(e)
-        }
-    }
-}
+// class Factory {
+//     static createObject(factory: string): IAbstractProduct | undefined {
+//         try {
+//             //    if(log for A factory) return AFactory.getObject(factory)
+//             //     if(log for B factory)  return BFactory.getObject(factory)
+//             throw new Error('No Factory Found')
+//         } catch (e) {
+//             console.log(e)
+//         }
+//     }
+// }
 
-Factory.createObject('a', 'small') //->From previous feature this will return the first factory small item dimensions
+// Factory.createObject('a', 'small') ->From previous feature this will return the first factory small item dimensions
